@@ -193,7 +193,82 @@ body{
 }
 
 .presentasiagama ul{
-    list-style-type: none;
+    padding-top: 2px;
+}
+
+.presentasiagama ul li{
+    color: #212529;
+}
+
+.presentasiagama ul li .hasilagama1{
+    background-color: #fd413c;
+    font-size: 11px;
+    color: black;
+    height: 15px;
+    width: 95%;
+    border-radius: 13px;
+}
+
+ul li .hasilagama1 p{
+    padding-left: 50%;
+    font-weight: bold;
+}
+
+.presentasiagama ul li .hasilagama2{
+    background-color: #febc2c;
+    font-size: 11px;
+    color: black;
+    height: 15px;
+    width: 35%;
+    border-radius: 13px;
+}
+
+ul li .hasilagama2 p{
+    padding-left: 45%;
+    font-weight: bold;
+}
+
+.presentasiagama ul li .hasilagama3{
+    background-color: #febc2c;
+    font-size: 11px;
+    color: black;
+    height: 15px;
+    width: 30%;
+    border-radius: 13px;
+}
+
+ul li .hasilagama3 p{
+    padding-left: 40%;
+    font-weight: bold;
+}
+
+.presentasiagama ul li .hasilagama4{
+    background-color: #febc2c;
+    font-size: 11px;
+    color: black;
+    height: 15px;
+    width: 8%;
+    border-radius: 13px;
+}
+
+ul li .hasilagama4 p{
+    padding-left: 33%;
+    font-weight: bold;
+}
+
+
+.presentasiagama ul li .hasilagama5{
+    background-color: #febc2c;
+    font-size: 11px;
+    color: black;
+    height: 15px;
+    width: 8%;
+    border-radius: 13px;
+}
+
+ul li .hasilagama5 p{
+    padding-left: 33%;
+    font-weight: bold;
 }
 
 .isiagama .presentasiagama{
@@ -243,8 +318,44 @@ padding-left: 43%;
 }
 
 .kolomkananbawah .mahasiswaaktif .bartengah{
+    
     height: 56%;
-    width: 100%;
+    width: 92%;
+    padding-left: 11px;    
+}
+
+.bartengah ul{
+    color: #212529;
+    padding-top: 19px;
+    padding-left: 15px;
+}
+
+.bartengah ul li{
+    display: inline-block;
+    
+}
+
+.bartengah ul li .data1{
+    
+    background-color: #febc2c;
+    border-radius: 5px;
+    height: 90px;
+    width: 35px;
+}
+
+.bartengah ul li .data2{
+    background-color: #fd413c;
+    border-radius: 5px;
+    height: 65px;
+    width: 35px;
+}
+
+.bartengah ul li .data3{
+    
+    background-color: #febc2c;
+    border-radius: 5px;
+    height: 75px;
+    width: 35px;
 }
 
 .kolomkananbawah .mahasiswaaktif .barbawah{
@@ -436,5 +547,5 @@ a:hover{
   }
 
   strong{
-      color: #3d434b;
+      color: white;
   }
