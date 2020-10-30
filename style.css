@@ -374,6 +374,35 @@ padding-left: 43%;
     height: 56%;
     width: 100%;
 }
+.tahunkelahiran .bartengah ul{
+    padding-top: 11%;
+    padding-left: 38px;
+    color: #212529;
+}
+
+.tahunkelahiran .bartengah ul li .datai{
+background-color: #febc2c;
+height: 50px;
+width: 20px;
+}
+
+.tahunkelahiran .bartengah ul li .dataii{
+    background-color: #fd413c;
+    height: 90px;
+    width: 20px;
+}
+
+.tahunkelahiran .bartengah ul li .dataiii{
+    background-color: #febc2c;
+    height: 63px;
+    width: 20px;
+}
+
+.tahunkelahiran .bartengah ul li .dataiv{
+    background-color: #febc2c;
+    height: 41px;
+    width: 20px;
+}
 
 .kolomkananbawah .tahunkelahiran .barbawah{
     height: 15%;
