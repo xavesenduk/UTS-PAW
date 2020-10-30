@@ -1,0 +1,440 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: blue;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+.bagiankiri{
+    background-color: #212529;
+    float: left;
+    height: 100vh;
+    width: 65%;
+    display: inline-block;
+}
+
+.bagiankanan{
+    background-color: #2d3136;
+    float: right;
+    height: 100vh;
+    width: 35%;
+}
+
+.bagiankiri .header{
+    height: 13.5%;
+    width: 100%;
+}
+
+.bagiankanan .header{
+    
+    height: 13%;
+    width: 99%;
+}
+
+.bagiankanan .komposisi{
+    
+    height: 23%;
+    width: 99%;
+}
+
+.bagiankanan .komposisi .presentasi{
+    height: 73%;
+    width: 99%;
+}
+
+.presentasi .kotak{
+    
+    height: 53%;
+    width: 90%;
+    
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.kotak .kotak1{
+    
+    height: 100%;
+    width: 48%;
+    float: left;
+    display: inline-block;
+}
+
+.kotak1 .isikotak{
+    background-color: #febc2c;
+    height: 85%;
+    width: 25%;
+    float: left;
+    display: inline-block;
+    border-radius: 13px;
+}
+
+.kotak1 .nilaipresentasi{
+    
+    height: 100%;
+    width: 73%;
+    float: right;
+}
+
+.nilaipresentasi ul li h2{
+    color: white;
+}
+
+.nilaipresentasi ul li p{
+    color: #777;
+    font-size: 13px;
+}
+.nilaipresentasi ul{
+    list-style-type: none;
+}
+
+.kotak .kotak2{
+    
+    height: 100%;
+    width: 50%;
+    float: right;
+    
+}
+
+.kotak2 .isikotak{
+    background-color: #fd413c;
+    height: 85%;
+    width: 25%;
+    float: left;
+    display: inline-block;
+    border-radius: 13px;
+}
+
+.kotak2 .nilaipresentasi{
+    
+    height: 100%;
+    width: 73%;
+    float: right;
+}
+
+.presentasi .bar{
+    height: 26%;
+    width: 90%;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.bar .presentasibar{
+    background-color: #fd413c;
+    height: 78%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.bagiankanan .komposisi .kompjurusan{
+    
+    height: 25%;
+    width: 99%;
+}
+
+.kompjurusan h4{
+    color: white;
+    padding-left: 50px;
+}
+
+.kompjurusan p{
+    padding-left: 50px;
+    font-size: 13px;
+    color: #777;
+}
+
+.bagiankanan .header .kolom{
+    
+    height: 38px;
+    width: 60%;
+    float: right;
+    padding-top: 10%;
+    padding-right: 9%;
+}
+
+.bagiankanan .kolomagama{
+    height: 95%;
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.kolomagama .agama{
+    background-color: #212529;
+    height: 95%;
+    width: 88%;
+    border-radius: 15px;
+}
+
+.agama .headeragama{
+    height: 20%;
+    width: 100%;
+}
+
+.agama .isiagama{
+    height: 73%;
+    width: 100%;
+}
+
+.isiagama .daftaragama{
+    
+    height: 100%;
+    width: 20%;
+    float: left;
+    
+}
+
+.presentasiagama ul{
+    list-style-type: none;
+}
+
+.isiagama .presentasiagama{
+    height: 100%;
+    width: 79%;
+    float: right;
+}
+
+.daftaragama ul{
+    padding-top: 1px;
+    padding-left: 5px;
+    list-style-type: none;
+}
+
+.daftaragama ul li{
+    padding-top: 3px;
+    font-size: 13px;
+    color: #777;
+}
+.headeragama h4{
+color: white;
+padding-top: 6px;
+padding-left: 43%;
+
+}
+
+.bagiankanan .kolomkananbawah{
+    height: 150%;
+    width: 80%;
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.kolomkananbawah .mahasiswaaktif{
+    background-color: #212529;
+    height: 90%;
+    width: 45%;
+    border-radius: 15px;
+    float: left;
+}
+
+.kolomkananbawah .mahasiswaaktif .baratas{
+    height: 23%;
+    width: 100%;
+    padding-top: 8px;
+}
+
+.kolomkananbawah .mahasiswaaktif .bartengah{
+    height: 56%;
+    width: 100%;
+}
+
+.kolomkananbawah .mahasiswaaktif .barbawah{
+    height: 15%;
+    width: 100%;
+    
+}
+
+.kolomkananbawah .tahunkelahiran .baratas{
+    height: 23%;
+    width: 100%;
+    padding-top: 8px;
+}
+
+.kolomkananbawah .tahunkelahiran .bartengah{
+    height: 56%;
+    width: 100%;
+}
+
+.kolomkananbawah .tahunkelahiran .barbawah{
+    height: 15%;
+    width: 100%;
+    
+}
+
+.barbawah p{
+    color: #777;
+    font-size: 11px;
+    padding-left: 35%;
+}
+
+.baratas h5{
+    color: white;
+    padding-left: 10px;
+}
+
+.baratas p{
+    color: #777;
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+.kolomkananbawah .tahunkelahiran{
+    background-color: #212529;
+    height: 90%;
+    width: 45%;
+    border-radius: 15px;
+    float: right;
+}
+
+.kolom .pengisian{
+    background-color: #212529;
+    border-radius: 20px;
+    height: 35px;
+    width: 240px;
+    float: right;
+}
+
+.pengisian p {
+    color: #777;
+    font-size: 15px;
+    padding: 7px;
+    padding-left: 15px;
+}
+
+.bagiankiri .header .gambar{
+    float: left;
+    width: 9%;
+    height: 100%;
+    display: inline-block;
+}
+
+img {
+    padding-left: 50%;
+    padding-top: 60%;
+}
+
+.bagiankiri .header .theme{
+    float: right;
+    width: 90%;
+    height: 100%;
+}
+.bagiankiri .header .theme p{
+    padding-top: 7%;
+    font-weight: bold;
+    color: white;
+}
+.bagiankiri .slidegambar{
+    height: 23%;
+    width: 100%;
+}
+
+.bagiankiri .dashboard{
+    height: 63%;
+    width: 100%;
+}
+
+.bagiankiri .dashboard .judul{
+    height: 11%;
+    width: 100%;
+}
+
+.bagiankiri .dashboard .isi{
+    height: 81%;
+    width: 100%;
+}
+
+.judul h1{
+    color: white;
+    font-weight: bolder;
+    padding-left: 6%;
+}
+
+.bagiankiri .dashboard .filterandtoogle{
+    
+    height: 8%;
+    width: 100%;
+}
+
+
+.filterandtoogle ul li{
+    padding-top: 4px;    
+    padding-left: 6%;
+    display: inline-block;
+}
+
+a{
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    color: #3d434b;
+}
+
+a:hover{
+    color: white;
+}
+
+.toggle-btn{
+    
+    float: right;
+    padding-top: 4px;
+    padding-right: 8%;
+}
+
+.switch input {
+    display: none;
+  }
+  
+  .switch {
+    display: inline-block;
+    width: 30px; /*=w*/
+    height: 15px; /*=h*/
+    transform: translateY(50%);
+    
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 30px;
+    box-shadow: 0 0 0 2px #777, 0 0 4px #777;
+    cursor: pointer;
+    border: 4px solid transparent;
+    overflow: hidden;
+    transition: 0.4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #777;
+    border-radius: 30px;
+    transform: translateX(-15px); /*translateX(-(w-h))*/
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(15px); /*translateX(w-h)*/
+    background-color: limeGreen;
+  }
+  
+  input:checked + .slider {
+    box-shadow: 0 0 0 2px limeGreen, 0 0 8px limeGreen;
+  }
+
+  strong{
+      color: #3d434b;
+  }
