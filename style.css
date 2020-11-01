@@ -34,7 +34,6 @@ body{
 }
 
 .bagiankanan .header{
-    
     height: 13%;
     width: 99%;
 }
@@ -51,17 +50,14 @@ body{
 }
 
 .presentasi .kotak{
-    
     height: 53%;
     width: 90%;
-    
     padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 5px;
 }
 
 .kotak .kotak1{
-    
     height: 100%;
     width: 48%;
     float: left;
@@ -78,7 +74,6 @@ body{
 }
 
 .kotak1 .nilaipresentasi{
-    
     height: 100%;
     width: 73%;
     float: right;
@@ -125,13 +120,6 @@ body{
     width: 90%;
     padding-left: 50px;
     padding-top: 5px;
-}
-
-.bar .presentasibar{
-    background-color: #fd413c;
-    height: 78%;
-    width: 90%;
-    border-radius: 10px;
 }
 
 .bagiankanan .komposisi .kompjurusan{
@@ -192,84 +180,6 @@ body{
     
 }
 
-.presentasiagama ul{
-    padding-top: 2px;
-}
-
-.presentasiagama ul li{
-    color: #212529;
-}
-
-.presentasiagama ul li .hasilagama1{
-    background-color: #fd413c;
-    font-size: 11px;
-    color: black;
-    height: 15px;
-    width: 95%;
-    border-radius: 13px;
-}
-
-ul li .hasilagama1 p{
-    padding-left: 50%;
-    font-weight: bold;
-}
-
-.presentasiagama ul li .hasilagama2{
-    background-color: #febc2c;
-    font-size: 11px;
-    color: black;
-    height: 15px;
-    width: 35%;
-    border-radius: 13px;
-}
-
-ul li .hasilagama2 p{
-    padding-left: 45%;
-    font-weight: bold;
-}
-
-.presentasiagama ul li .hasilagama3{
-    background-color: #febc2c;
-    font-size: 11px;
-    color: black;
-    height: 15px;
-    width: 30%;
-    border-radius: 13px;
-}
-
-ul li .hasilagama3 p{
-    padding-left: 40%;
-    font-weight: bold;
-}
-
-.presentasiagama ul li .hasilagama4{
-    background-color: #febc2c;
-    font-size: 11px;
-    color: black;
-    height: 15px;
-    width: 8%;
-    border-radius: 13px;
-}
-
-ul li .hasilagama4 p{
-    padding-left: 33%;
-    font-weight: bold;
-}
-
-
-.presentasiagama ul li .hasilagama5{
-    background-color: #febc2c;
-    font-size: 11px;
-    color: black;
-    height: 15px;
-    width: 8%;
-    border-radius: 13px;
-}
-
-ul li .hasilagama5 p{
-    padding-left: 33%;
-    font-weight: bold;
-}
 
 .isiagama .presentasiagama{
     height: 100%;
@@ -335,29 +245,6 @@ padding-left: 43%;
     
 }
 
-.bartengah ul li .data1{
-    
-    background-color: #febc2c;
-    border-radius: 5px;
-    height: 90px;
-    width: 35px;
-}
-
-.bartengah ul li .data2{
-    background-color: #fd413c;
-    border-radius: 5px;
-    height: 65px;
-    width: 35px;
-}
-
-.bartengah ul li .data3{
-    
-    background-color: #febc2c;
-    border-radius: 5px;
-    height: 75px;
-    width: 35px;
-}
-
 .kolomkananbawah .mahasiswaaktif .barbawah{
     height: 15%;
     width: 100%;
@@ -374,36 +261,6 @@ padding-left: 43%;
     height: 56%;
     width: 100%;
 }
-.tahunkelahiran .bartengah ul{
-    padding-top: 11%;
-    padding-left: 38px;
-    color: #212529;
-}
-
-.tahunkelahiran .bartengah ul li .datai{
-background-color: #febc2c;
-height: 50px;
-width: 20px;
-}
-
-.tahunkelahiran .bartengah ul li .dataii{
-    background-color: #fd413c;
-    height: 90px;
-    width: 20px;
-}
-
-.tahunkelahiran .bartengah ul li .dataiii{
-    background-color: #febc2c;
-    height: 63px;
-    width: 20px;
-}
-
-.tahunkelahiran .bartengah ul li .dataiv{
-    background-color: #febc2c;
-    height: 41px;
-    width: 20px;
-}
-
 .kolomkananbawah .tahunkelahiran .barbawah{
     height: 15%;
     width: 100%;
@@ -435,19 +292,14 @@ width: 20px;
     float: right;
 }
 
-.kolom .pengisian{
-    background-color: #212529;
+.pengisian input{
     border-radius: 20px;
-    height: 35px;
-    width: 240px;
+    background-color: #212529;
+    color: white;
+    width: 220px;
+    height: 30px;
     float: right;
-}
-
-.pengisian p {
-    color: #777;
-    font-size: 15px;
-    padding: 7px;
-    padding-left: 15px;
+    text-align: center;
 }
 
 .bagiankiri .header .gambar{
@@ -488,7 +340,7 @@ img {
 }
 
 .bagiankiri .dashboard .isi{
-    height: 81%;
+    height: 80%;
     width: 100%;
 }
 
@@ -500,10 +352,9 @@ img {
 
 .bagiankiri .dashboard .filterandtoogle{
     
-    height: 8%;
+    height: 10%;
     width: 100%;
 }
-
 
 .filterandtoogle ul li{
     padding-top: 4px;    
