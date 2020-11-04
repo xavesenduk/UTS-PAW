@@ -5,11 +5,11 @@ function drawChart() {
 
   var data = google.visualization.arrayToDataTable([
     ['Agama', 'Jumlah Mahasiswa'],
-    ['Protestan',     65],
-    ['Katolik',      25],
-    ['Islam',      11],
+    ['Protestan',     54],
+    ['Katolik',      3],
+    ['Islam',      4],
     ['Hindu',      1],
-    ['Buddha',      1]
+    ['Buddha',      0]
   ]);
 
   var options = {

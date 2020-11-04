@@ -4,10 +4,10 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
     ['Tahun', 'Mahasiswa'],
-    ['2000',  1000],
-    ['2001',  1170],
-    ['2002',  660],
-    ['2003',  1030]
+    ['2000',  6],
+    ['2001',  36],
+    ['2002',  18],
+    ['2003',  6]
   ]);
 
   var options = {
