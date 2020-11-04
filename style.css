@@ -5,27 +5,20 @@
 }
 
 body{
-    background-color: blue;
+    background-color: #212529;
 }
 
 .container{
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
 .bagiankiri{
     background-color: #212529;
     float: left;
-    height: 100vh;
+    height: 100%;
     width: 65%;
     display: inline-block;
-}
-
-.bagiankanan{
-    background-color: #2d3136;
-    float: right;
-    height: 100vh;
-    width: 35%;
 }
 
 .bagiankiri .header{
@@ -33,300 +26,29 @@ body{
     width: 100%;
 }
 
-.bagiankanan .header{
-    height: 13%;
-    width: 99%;
-}
-
-.bagiankanan .komposisi{
-    
-    height: 23%;
-    width: 99%;
-}
-
-.bagiankanan .komposisi .presentasi{
-    height: 73%;
-    width: 99%;
-}
-
-.presentasi .kotak{
-    height: 53%;
-    width: 90%;
-    padding-left: 50px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-}
-
-.kotak .kotak1{
-    height: 100%;
-    width: 48%;
-    float: left;
-    display: inline-block;
-}
-
-.kotak1 .isikotak{
-    background-color: #febc2c;
-    height: 85%;
-    width: 25%;
-    float: left;
-    display: inline-block;
-    border-radius: 13px;
-}
-
-.kotak1 .nilaipresentasi{
-    height: 100%;
-    width: 73%;
-    float: right;
-}
-
-.nilaipresentasi ul li h2{
-    color: white;
-}
-
-.nilaipresentasi ul li p{
-    color: #777;
-    font-size: 13px;
-}
-.nilaipresentasi ul{
-    list-style-type: none;
-}
-
-.kotak .kotak2{
-    
-    height: 100%;
-    width: 50%;
-    float: right;
-    
-}
-
-.kotak2 .isikotak{
-    background-color: #fd413c;
-    height: 85%;
-    width: 25%;
-    float: left;
-    display: inline-block;
-    border-radius: 13px;
-}
-
-.kotak2 .nilaipresentasi{
-    
-    height: 100%;
-    width: 73%;
-    float: right;
-}
-
-.presentasi .bar{
-    height: 26%;
-    width: 90%;
-    padding-left: 50px;
-    padding-top: 5px;
-}
-
-.bagiankanan .komposisi .kompjurusan{
-    
-    height: 25%;
-    width: 99%;
-}
-
-.kompjurusan h4{
-    color: white;
-    padding-left: 50px;
-}
-
-.kompjurusan p{
-    padding-left: 50px;
-    font-size: 13px;
-    color: #777;
-}
-
-.bagiankanan .header .kolom{
-    
-    height: 38px;
-    width: 60%;
-    float: right;
-    padding-top: 10%;
-    padding-right: 9%;
-}
-
-.bagiankanan .kolomagama{
-    height: 95%;
-    width: 90%;
-    padding-left: 10%;
-    padding-top: 3%;
-}
-
-.kolomagama .agama{
-    background-color: #212529;
-    height: 95%;
-    width: 88%;
-    border-radius: 15px;
-}
-
-.agama .headeragama{
-    height: 20%;
-    width: 100%;
-}
-
-.agama .isiagama{
-    height: 73%;
-    width: 100%;
-}
-
-.isiagama .daftaragama{
-    
-    height: 100%;
-    width: 20%;
-    float: left;
-    
-}
-
-
-.isiagama .presentasiagama{
-    height: 100%;
-    width: 79%;
-    float: right;
-}
-
-.daftaragama ul{
-    padding-top: 1px;
-    padding-left: 5px;
-    list-style-type: none;
-}
-
-.daftaragama ul li{
-    padding-top: 3px;
-    font-size: 13px;
-    color: #777;
-}
-.headeragama h4{
-color: white;
-padding-top: 6px;
-padding-left: 43%;
-
-}
-
-.bagiankanan .kolomkananbawah{
-    height: 150%;
-    width: 80%;
-    padding-top: 7%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.kolomkananbawah .mahasiswaaktif{
-    background-color: #212529;
-    height: 90%;
-    width: 45%;
-    border-radius: 15px;
-    float: left;
-}
-
-.kolomkananbawah .mahasiswaaktif .baratas{
-    height: 23%;
-    width: 100%;
-    padding-top: 8px;
-}
-
-.kolomkananbawah .mahasiswaaktif .bartengah{
-    
-    height: 56%;
-    width: 92%;
-    padding-left: 11px;    
-}
-
-.bartengah ul{
-    color: #212529;
-    padding-top: 19px;
-    padding-left: 15px;
-}
-
-.bartengah ul li{
-    display: inline-block;
-    
-}
-
-.kolomkananbawah .mahasiswaaktif .barbawah{
-    height: 15%;
-    width: 100%;
-    
-}
-
-.kolomkananbawah .tahunkelahiran .baratas{
-    height: 23%;
-    width: 100%;
-    padding-top: 8px;
-}
-
-.kolomkananbawah .tahunkelahiran .bartengah{
-    height: 56%;
-    width: 100%;
-}
-.kolomkananbawah .tahunkelahiran .barbawah{
-    height: 15%;
-    width: 100%;
-    
-}
-
-.barbawah p{
-    color: #777;
-    font-size: 11px;
-    padding-left: 35%;
-}
-
-.baratas h5{
-    color: white;
-    padding-left: 10px;
-}
-
-.baratas p{
-    color: #777;
-    font-size: 11px;
-    padding-left: 10px;
-}
-
-.kolomkananbawah .tahunkelahiran{
-    background-color: #212529;
-    height: 90%;
-    width: 45%;
-    border-radius: 15px;
-    float: right;
-}
-
-.pengisian input{
-    border-radius: 20px;
-    background-color: #212529;
-    color: white;
-    width: 220px;
-    height: 30px;
-    float: right;
-    text-align: center;
+.bagiankiri .header img {
+    padding-left: 5%;
+    padding-top: 6%;
+    width: 50px;
+    height: 50px;
 }
 
 .bagiankiri .header .gambar{
     float: left;
-    width: 9%;
-    height: 100%;
-    display: inline-block;
-}
-
-img {
-    padding-left: 50%;
-    padding-top: 60%;
 }
 
 .bagiankiri .header .theme{
-    float: right;
+    float: left;
     width: 90%;
     height: 100%;
+    display: inline-flex;
 }
+
 .bagiankiri .header .theme p{
-    padding-top: 7%;
+    padding-left: 2%;
+    padding-top: 8%;
     font-weight: bold;
     color: white;
-}
-.bagiankiri .slidegambar{
-    height: 28%;
-    width: 100%;
 }
 
 .bagiankiri .dashboard{
@@ -339,37 +61,78 @@ img {
     width: 100%;
 }
 
-.bagiankiri .dashboard .isi{
-    height: 80%;
-    width: 100%;
-}
-
 .judul h1{
     color: white;
     font-weight: bolder;
     padding-left: 6%;
+    padding-top: 18%;
 }
 
-.bagiankiri .dashboard .filterandtoogle{
-    
-    height: 10%;
+/* */
+
+.nav {
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 0 20px;
+    margin-left: 3%;
+}
+.nav-item {
+    color: #828486;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin: 0 6px;
+    z-index: 1;
+    font-weight: 500;
+    position: relative;
+}
+.nav-item:before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
     width: 100%;
+    height: 5px;
+    background-color: #dfe2ea;
+    border-radius: 8px 8px 0 0;
+    opacity: 0;
+    transition: 0.3s;
 }
-
-.filterandtoogle ul li{
-    padding-top: 4px;    
-    padding-left: 6%;
-    display: inline-block;
+.nav-item:not(.is-active):hover:before {
+    color: #828486;
+    bottom: 0;
 }
+.nav-item:not(.is-active):hover {
+    color: #fd413c;
+}
+.nav-indicator {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    transition: 0.4s;
+    height: 5px;
+    z-index: 1;
+    border-radius: 8px 8px 0 0;
+}
+@media (max-width: 580px) {
+    .nav {
+        overflow: auto;
+   }
+}
+  
+/* */
 
-a{
+.filterdata{
     font-weight: bold;
     font-size: 17px;
     text-decoration: none;
     color: #3d434b;
 }
 
-a:hover{
+.filterdata:hover{
     color: white;
 }
 
@@ -380,52 +143,90 @@ a:hover{
     padding-right: 8%;
 }
 
-.switch input {
-    display: none;
-  }
-  
-  .switch {
-    display: inline-block;
-    width: 30px; /*=w*/
-    height: 15px; /*=h*/
-    transform: translateY(50%);
-    
-  }
-  
-  .slider {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 30px;
-    box-shadow: 0 0 0 2px #777, 0 0 4px #777;
-    cursor: pointer;
-    border: 4px solid transparent;
-    overflow: hidden;
-    transition: 0.4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
+.bagiankiri .dashboard .isi{
+    height: 80%;
     width: 100%;
-    height: 100%;
-    background-color: #777;
-    border-radius: 30px;
-    transform: translateX(-15px); /*translateX(-(w-h))*/
-    transition: 0.4s;
-  }
-  
-  input:checked + .slider:before {
-    transform: translateX(15px); /*translateX(w-h)*/
-    background-color: limeGreen;
-  }
-  
-  input:checked + .slider {
-    box-shadow: 0 0 0 2px limeGreen, 0 0 8px limeGreen;
-  }
+    padding-top: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
 
-  strong{
-      color: white;
-  }
+.isi .mhs{
+    width: 90%;
+    color: white;
+    text-align: left;
+}
+
+#dataMahasiswa td{
+    background-color: #2d3136;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mhs #dataMahasiswa tr{
+    height: 10px;;
+}
+
+.bagiankanan{
+    background-color: #2d3136;
+    height: 100vh;
+    width: 35%;
+    position: fixed;
+    float: right;
+    right: 0;
+    display: list-item;
+}
+
+.bagiankanan .header{
+    height: 13%;
+    width: 99%;
+}
+
+.bagiankanan .header .kolom{
+    height: 38px;
+    width: 60%;
+    float: right;
+    padding-top: 10%;
+    padding-right: 9%;
+}
+
+.pengisian input{
+    border-radius: 20px;
+    border: 1px solid  #212529;
+    outline: none;
+    background-color: #212529;
+    color: white;
+    width: 220px;
+    height: 30px;
+    padding: 3px;
+    float: right;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.pengisian input:focus{
+    border-color: white;
+}
+
+.bagiankanan .judbag{
+    margin-top: 2%;
+    height: 100%;
+    width: 99%;
+}
+
+.bagiankanan .judbag .subjudbag{
+    height: 100%;
+    width: 99%;
+}
+
+.subjudbag h4{
+    color: white;
+    padding-left: 50px;
+}
+
+.subjudbag p{
+    margin-bottom: 5%;
+    padding-left: 50px;
+    font-size: 13px;
+    color: #777;
+}
